@@ -338,5 +338,105 @@
     "source_url": "https://github.com/nirholas/atomic",
     "uncertainty": "Historical typecheck findings do not establish current failures",
     "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "LiteSVM/litesvm",
+    "category": "Local transaction simulation",
+    "license_evidence": "Apache-2.0 LICENSE inspected",
+    "observed_maintenance": "Release v0.18.1 shown 18 Oct 2026",
+    "recommendation": "Depend; build reproducible transaction test fixtures and simulation reports",
+    "source_url": "https://github.com/LiteSVM/litesvm",
+    "uncertainty": "Not a guarantee of mainnet execution; pin runtime feature set and account snapshots",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "Ackee-Blockchain/trident",
+    "category": "Solana program fuzzing",
+    "license_evidence": "MIT LICENSE inspected",
+    "observed_maintenance": "Release 0.13.0-rc.4 visible; ongoing issue and PR activity",
+    "recommendation": "Depend; publish community fuzz harnesses and invariant examples",
+    "source_url": "https://github.com/Ackee-Blockchain/trident",
+    "uncertainty": "Pre-release toolchain; framework use does not constitute a security audit",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "anza-xyz/kit",
+    "category": "Modular Solana client foundation",
+    "license_evidence": "MIT text in LICENSE inspected",
+    "observed_maintenance": "Release v8.5.0 dated 2026-10-13",
+    "recommendation": "Depend; reusable RPC and transaction explainers with explicit SDK version support",
+    "source_url": "https://github.com/anza-xyz/kit",
+    "uncertainty": "API differs from web3.js 1.x; ecosystem adapters need compatibility testing",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "metaplex-foundation/umi",
+    "category": "Asset metadata and client tooling",
+    "license_evidence": "MIT LICENSE inspected",
+    "observed_maintenance": "Release v1.6.0 visible dated 17 Sep; uploader and adapter changes",
+    "recommendation": "Depend; metadata integrity inspector with JSON and content checks",
+    "source_url": "https://github.com/metaplex-foundation/umi",
+    "uncertainty": "Umi license does not establish licenses of every Metaplex program or plugin; uploads may cost money",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "codama-idl/codama",
+    "category": "IDL-driven client generation",
+    "license_evidence": "GitHub labels MIT; LICENSE file body not retrieved",
+    "observed_maintenance": "Release codama@1.11.0 visible dated 15 Sep; default branch 1.x",
+    "recommendation": "Conditional depend; generate versioned decoders and IDL drift reports",
+    "source_url": "https://github.com/codama-idl/codama",
+    "uncertainty": "Inspect pinned LICENSE text and renderer licenses before vendoring; generated output accuracy follows IDL accuracy",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "helius-labs/helius-sdk",
+    "category": "Managed RPC and transaction parsing",
+    "license_evidence": "MIT LICENSE inspected",
+    "observed_maintenance": "Release v3.3.0 dated 2026-10-13",
+    "recommendation": "Optional provider adapter; wallet event feeds and alert delivery examples",
+    "source_url": "https://github.com/helius-labs/helius-sdk",
+    "uncertainty": "SDK open source does not make hosted APIs free or self-hostable; some methods can pay/sign",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "anza-xyz/wallet-adapter",
+    "category": "Browser wallet integration",
+    "license_evidence": "Apache-2.0 LICENSE inspected",
+    "observed_maintenance": "Wallet package release 0.19.40 shown 06 Oct; signature-verification example update",
+    "recommendation": "Depend; transparent wallet connection and transaction review UI",
+    "source_url": "https://github.com/anza-xyz/wallet-adapter",
+    "uncertainty": "Use minimal required packages; burner adapter is for development; connecting wallet is not safety certification",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "Squads-Protocol/v4",
+    "category": "Multisig treasury controls",
+    "license_evidence": "Root AGPL-3.0 inspected; sdk/multisig/package.json declares MIT",
+    "observed_maintenance": "Public program and SDK source; releases page has no GitHub releases",
+    "recommendation": "Conditional link and SDK integration; community treasury activity and proposal viewer",
+    "source_url": "https://github.com/Squads-Protocol/v4",
+    "uncertainty": "Confirm component license scope before copying SDK source; do not label whole repo MIT",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "solana-foundation/solana-verifiable-build",
+    "category": "On-chain source provenance",
+    "license_evidence": "Cargo.toml declares MIT; no root LICENSE found in inspected tree",
+    "observed_maintenance": "663 commits visible; Cargo package 0.6.0; exact latest commit date not verified",
+    "recommendation": "Link; add verifiable-build status to evidence reports; hold vendoring pending license clarification",
+    "source_url": "https://github.com/solana-foundation/solana-verifiable-build",
+    "uncertainty": "Matching source and deployed bytes does not prove program safety; license text not retrieved",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "orca-so/whirlpools",
+    "category": "DEX quotes and execution reference",
+    "license_evidence": "Current root Orca License restricts non-commercial and competitor uses; replaced Apache-2.0 from 2025-02-27",
+    "observed_maintenance": "Current README includes Rust and TS SDK suite and 2025 audit links",
+    "recommendation": "Reference only; hold adoption under unrestricted-open-source policy",
+    "source_url": "https://github.com/orca-so/whirlpools",
+    "uncertainty": "Repository description says open source but current LICENSE has field-of-use restrictions; exact package exceptions unverified",
+    "research_date": "2026-10-21"
   }
 ]

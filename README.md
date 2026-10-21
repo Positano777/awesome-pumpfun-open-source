@@ -1,3 +1,5 @@
+![Find the right foundation: researched Solana tools with source, license, and limits](docs/assets/catalog-cover.png)
+
 # Awesome Pumpfun Open Source
 
 A researched catalog of Solana and pump.fun tools, maintained by [Positano777](https://x.com/positano777). Find useful foundations, understand their limits, and contribute improvements upstream.
@@ -13,6 +15,31 @@ A researched catalog of Solana and pump.fun tools, maintained by [Positano777](h
 | Current protocol interfaces | [Official Pump docs](https://github.com/pump-fun/pump-public-docs) | Docs and SDK package leads; not all source repos accessible |
 | Smart-money dashboard and copy trading | [Million](https://github.com/Kelows/million) | MIT, experimental; execution review needed |
 | Rust SDK | [pumpfun-rs](https://github.com/nhuxhr/pumpfun-rs) | MIT OR Apache-2.0; current compatibility unverified |
+
+## Specialized tools worth studying
+
+The catalog now covers **44 researched candidates**, including held and unresolved entries. These upstream tools solve different problems; this community did not author their engines. Read [source-backed specialized notes](SPECIALIZED.md) before adopting one.
+
+| Need | Upstream foundation | Useful community contribution |
+| --- | --- | --- |
+| Reproduce transaction behavior locally | [LiteSVM](https://github.com/LiteSVM/litesvm) | Simulation fixtures and understandable balance-change reports |
+| Stress-test program invariants | [Trident](https://github.com/Ackee-Blockchain/trident) | Small reusable fuzzing harnesses |
+| Build transactions and RPC clients | [Solana Kit](https://github.com/anza-xyz/kit) | Documented transaction adapters |
+| Inspect metadata | [Umi](https://github.com/metaplex-foundation/umi) | URI and update-authority diagnostics |
+| Track generated client compatibility | [Codama](https://github.com/codama-idl/codama) | Versioned IDL fixtures; license-body confirmation remains pending |
+| Deliver wallet event alerts | [Helius SDK](https://github.com/helius-labs/helius-sdk) | Optional managed-provider adapters; API costs apply |
+| Connect browser wallets | [Wallet Adapter](https://github.com/anza-xyz/wallet-adapter) | Minimal connection and transaction-review examples |
+| Explain treasury proposals | [Squads v4](https://github.com/Squads-Protocol/v4) | Read-only proposal views; confirm component license scope |
+
+**Important holds:** Orca Whirlpools has current field-of-use restrictions. Squads' root and SDK manifest differ. Solana Verify's manifest and license-file evidence need reconciliation. Those are research leads, not blanket permissive reuse recommendations.
+
+## Use this reference
+
+- **Builders:** choose a foundation, inspect its license, pin the revision, and test the integration.
+- **Researchers:** submit reproducible corrections, examples, or license evidence.
+- **Community members:** start with a concrete problem, not a promise of trading returns.
+
+Available community software: [launch-evidence toolbox](https://github.com/Positano777/pumpfun-community-tools) and [IDL Drift Watch](https://github.com/Positano777/idl-drift-watch), an original offline IDL structural checker. The specialized integrations above are proposals, not shipped community adapters.
 
 ## How to read this catalog
 
@@ -227,6 +254,21 @@ Public source does not automatically grant reuse rights. Several discovered repo
 | Candidate | License evidence | Recommendation | Limits |
 | --- | --- | --- | --- |
 | [nirholas/atomic](https://github.com/nirholas/atomic) | Not assessed | Documentation reference only | Historical typecheck findings do not establish current failures |
+
+## Specialized inventory additions
+
+| Candidate | License evidence | Action | Limits |
+| --- | --- | --- | --- |
+| [LiteSVM/litesvm](https://github.com/LiteSVM/litesvm) | Apache-2.0 LICENSE inspected | Depend; build reproducible transaction test fixtures and simulation reports | Not a guarantee of mainnet execution; pin runtime feature set and account snapshots |
+| [Ackee-Blockchain/trident](https://github.com/Ackee-Blockchain/trident) | MIT LICENSE inspected | Depend; publish community fuzz harnesses and invariant examples | Pre-release toolchain; framework use does not constitute a security audit |
+| [anza-xyz/kit](https://github.com/anza-xyz/kit) | MIT text in LICENSE inspected | Depend; reusable RPC and transaction explainers with explicit SDK version support | API differs from web3.js 1.x; ecosystem adapters need compatibility testing |
+| [metaplex-foundation/umi](https://github.com/metaplex-foundation/umi) | MIT LICENSE inspected | Depend; metadata integrity inspector with JSON and content checks | Umi license does not establish licenses of every Metaplex program or plugin; uploads may cost money |
+| [codama-idl/codama](https://github.com/codama-idl/codama) | GitHub labels MIT; LICENSE file body not retrieved | Conditional depend; generate versioned decoders and IDL drift reports | Inspect pinned LICENSE text and renderer licenses before vendoring; generated output accuracy follows IDL accuracy |
+| [helius-labs/helius-sdk](https://github.com/helius-labs/helius-sdk) | MIT LICENSE inspected | Optional provider adapter; wallet event feeds and alert delivery examples | SDK open source does not make hosted APIs free or self-hostable; some methods can pay/sign |
+| [anza-xyz/wallet-adapter](https://github.com/anza-xyz/wallet-adapter) | Apache-2.0 LICENSE inspected | Depend; transparent wallet connection and transaction review UI | Use minimal required packages; burner adapter is for development; connecting wallet is not safety certification |
+| [Squads-Protocol/v4](https://github.com/Squads-Protocol/v4) | Root AGPL-3.0 inspected; sdk/multisig/package.json declares MIT | Conditional link and SDK integration; community treasury activity and proposal viewer | Confirm component license scope before copying SDK source; do not label whole repo MIT |
+| [solana-foundation/solana-verifiable-build](https://github.com/solana-foundation/solana-verifiable-build) | Cargo.toml declares MIT; no root LICENSE found in inspected tree | Link; add verifiable-build status to evidence reports; hold vendoring pending license clarification | Matching source and deployed bytes does not prove program safety; license text not retrieved |
+| [orca-so/whirlpools](https://github.com/orca-so/whirlpools) | Current root Orca License restricts non-commercial and competitor uses; replaced Apache-2.0 from 2025-02-27 | Reference only; hold adoption under unrestricted-open-source policy | Repository description says open source but current LICENSE has field-of-use restrictions; exact package exceptions unverified |
 
 ## Contribute
 
