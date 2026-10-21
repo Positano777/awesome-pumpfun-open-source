@@ -1,0 +1,342 @@
+[
+  {
+    "owner_repo_or_unresolved_name": "haccer/pumpfun-research",
+    "category": "Wallet PnL research",
+    "license_evidence": "No verified license; API null",
+    "observed_maintenance": "Push 2025-10-16",
+    "recommendation": "Hold reuse; useful real Python methodology",
+    "source_url": "https://github.com/haccer/pumpfun-research",
+    "uncertainty": "License and PnL correctness unverified",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "maseurodrigo/SolTrack",
+    "category": "Wallet balances",
+    "license_evidence": "MIT file inspected",
+    "observed_maintenance": "Push 2025-04-28",
+    "recommendation": "Secondary prototype reference",
+    "source_url": "https://github.com/maseurodrigo/SolTrack",
+    "uncertainty": "Not Rust desktop or validated trade PnL; public passphrase design needs review",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "chrsow/soltrack",
+    "category": "Developer identity; name collision",
+    "license_evidence": "Not checked",
+    "observed_maintenance": "Not checked",
+    "recommendation": "Exclude from wallet-PnL shortlist",
+    "source_url": "https://github.com/chrsow/soltrack",
+    "uncertainty": "Unrelated Rust crate; source owner from docs.rs",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "katlogic/solana-wallet-analytics-telegram-tool",
+    "category": "Wallet PnL showcase",
+    "license_evidence": "No verified license",
+    "observed_maintenance": "Push 2025-09-26",
+    "recommendation": "Reject as implementation base",
+    "source_url": "https://github.com/katlogic/solana-wallet-analytics-telegram-tool",
+    "uncertainty": "Screenshots only in public directory",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nirholas/kol-quest",
+    "category": "Smart-money dashboard",
+    "license_evidence": "Proprietary LICENSE",
+    "observed_maintenance": "Push 2026-10-09",
+    "recommendation": "Exclude current source from OSS reuse",
+    "source_url": "https://github.com/nirholas/kol-quest",
+    "uncertainty": "Description does not override LICENSE; no runtime validation",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "smart-money-shadow [owner unresolved]",
+    "category": "Copy trading",
+    "license_evidence": "Unknown",
+    "observed_maintenance": "Unresolved",
+    "recommendation": "Hold; exact repository needed",
+    "source_url": "Unresolved",
+    "uncertainty": "No verified owner or primary URL",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "AccursedGalaxy/Insider-Monitor",
+    "category": "Wallet Discord alerts",
+    "license_evidence": "README MIT; no verified root grant",
+    "observed_maintenance": "Push 2026-10-21",
+    "recommendation": "Hold license; review source",
+    "source_url": "https://github.com/AccursedGalaxy/Insider-Monitor",
+    "uncertainty": "Balance changes do not establish insiders; committed binary not run",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "Kelows/million",
+    "category": "Copy trading; paper and live execution",
+    "license_evidence": "MIT file inspected",
+    "observed_maintenance": "Push 2026-09-14",
+    "recommendation": "Shortlist for detailed source and execution review",
+    "source_url": "https://github.com/Kelows/million",
+    "uncertainty": "Experimental; no runtime security or compatibility validation",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nirholas/pumpkit",
+    "category": "Telegram launch and whale alerts",
+    "license_evidence": "Proprietary LICENSE",
+    "observed_maintenance": "Push 2026-10-19",
+    "recommendation": "Exclude current source from OSS reuse",
+    "source_url": "https://github.com/nirholas/pumpkit",
+    "uncertainty": "Source exists but reuse restricted",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "DracoR22/handi-cat_wallet-tracker",
+    "category": "Telegram wallet swap alerts",
+    "license_evidence": "No verified license; API null",
+    "observed_maintenance": "Push 2026-02-17",
+    "recommendation": "Hold copying pending license",
+    "source_url": "https://github.com/DracoR22/handi-cat_wallet-tracker",
+    "uncertainty": "Source exists; not executed",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nathanliow/pumpscope",
+    "category": "Live tokens; charts; paper trading",
+    "license_evidence": "No verified license; API null",
+    "observed_maintenance": "Push 2026-03-04; one commit",
+    "recommendation": "Reference only; hold reuse",
+    "source_url": "https://github.com/nathanliow/pumpscope",
+    "uncertainty": "Non-production exploration",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "OkoyaUsman/solana-wallet-analyzer",
+    "category": "Wallet screening; CSV",
+    "license_evidence": "MIT API and root evidence",
+    "observed_maintenance": "Push 2025-04-22",
+    "recommendation": "Secondary small Python candidate",
+    "source_url": "https://github.com/OkoyaUsman/solana-wallet-analyzer",
+    "uncertainty": "Birdeye dependency; not pump-specific; not run",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "bobvasic/rughawk",
+    "category": "Creation-slot launch and risk analysis",
+    "license_evidence": "MIT LICENSE inspected",
+    "observed_maintenance": "Push 2026-10-19",
+    "recommendation": "Primary detector base; contribution or focused fork",
+    "source_url": "https://github.com/bobvasic/rughawk",
+    "uncertainty": "Tests inspected not run; same-slot coordination inferred; paid hosting not source restriction",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "smokyrudeboys/onchain-agent-toolkit",
+    "category": "Bundle clustering; educational toolkit",
+    "license_evidence": "MIT API evidence",
+    "observed_maintenance": "Push 2026-05-29; two commits",
+    "recommendation": "Reference; rewrite detector",
+    "source_url": "https://github.com/smokyrudeboys/onchain-agent-toolkit",
+    "uncertainty": "Latest-100 sampling does not locate mint creation or verify buys",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "drixindustries/Rug-Killer-On-Solana",
+    "category": "Safety and bundle detector",
+    "license_evidence": "MIT API evidence",
+    "observed_maintenance": "Push 2025-12-07",
+    "recommendation": "Do not adopt current detector",
+    "source_url": "https://github.com/drixindustries/Rug-Killer-On-Solana",
+    "uncertainty": "Source invents wallet IDs from signatures; error returns clean result",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "paulf280-ui/cabal-hunter-mcp",
+    "category": "Hosted forensic API client",
+    "license_evidence": "MIT client repository",
+    "observed_maintenance": "Not established",
+    "recommendation": "UX and terminology comparison",
+    "source_url": "https://github.com/paulf280-ui/cabal-hunter-mcp",
+    "uncertainty": "Backend openness and implementation not verified",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "0slot Solscan Jito Bundle Detector [repository unresolved]",
+    "category": "Browser extension; Jito inspection",
+    "license_evidence": "Provider says open source; source/license not inspected",
+    "observed_maintenance": "Not established",
+    "recommendation": "Investigate ZIP and license before reuse",
+    "source_url": "https://0slot.trade/tools.html",
+    "uncertainty": "Not a verified GitHub repo or token launch scanner",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "git-disl/MELT",
+    "category": "Dataset and ML benchmark; formerly MemeTrans",
+    "license_evidence": "CC BY-NC 4.0",
+    "observed_maintenance": "Not established",
+    "recommendation": "Benchmark lead; commercial permission review",
+    "source_url": "https://github.com/git-disl/MELT",
+    "uncertainty": "Noncommercial restriction; not permissive software base",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "aethernet404/rugcheck",
+    "category": "Python token safety",
+    "license_evidence": "No verified license; API null",
+    "observed_maintenance": "Push 2026-08-22",
+    "recommendation": "Hold copying pending license",
+    "source_url": "https://github.com/aethernet404/rugcheck",
+    "uncertainty": "Bundler feature roadmap; MIT claim unsupported",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "degenfrends/solana-rugchecker",
+    "category": "Token safety library",
+    "license_evidence": "Package MIT; root grant unverified",
+    "observed_maintenance": "Push 2024-06-14",
+    "recommendation": "Reference or modernization after clarification",
+    "source_url": "https://github.com/degenfrends/solana-rugchecker",
+    "uncertainty": "False-result warning; no verified bundle detector",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "Rezzecup/pump-fun-rug-checker-lite",
+    "category": "Token safety",
+    "license_evidence": "Unknown",
+    "observed_maintenance": "Direct fetch 404",
+    "recommendation": "Do not recommend current availability",
+    "source_url": "https://github.com/Rezzecup/pump-fun-rug-checker-lite",
+    "uncertainty": "Indexed topic mention only",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nirholas/pump-fun-sdk",
+    "category": "SDK; execution and launch",
+    "license_evidence": "Proprietary LICENSE conflicts with package Apache-2.0",
+    "observed_maintenance": "Cached history Aug 2026; latest uncertain",
+    "recommendation": "Hold current source reuse",
+    "source_url": "https://github.com/nirholas/pump-fun-sdk",
+    "uncertainty": "Actual source inspected; no current compatibility tests",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nirholas/pumpfun-creator-rewards",
+    "category": "Creator fee analytics",
+    "license_evidence": "Proprietary; July 2026 license-change history",
+    "observed_maintenance": "License change 2026-07-14; latest uncertain",
+    "recommendation": "Exclude current source from OSS reuse",
+    "source_url": "https://github.com/nirholas/pumpfun-creator-rewards",
+    "uncertainty": "Features largely README; pooled withdrawals attribution uncertain",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nirholas/pumpvault",
+    "category": "Creator fee claiming; key handling",
+    "license_evidence": "Package MIT; LICENSE grant not verified",
+    "observed_maintenance": "Not established",
+    "recommendation": "Hold license and code review",
+    "source_url": "https://github.com/nirholas/pumpvault",
+    "uncertainty": "No custody audit or runtime validation",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "16usa/Pump-Fee-Routing",
+    "category": "Treasury fee routing",
+    "license_evidence": "Unknown",
+    "observed_maintenance": "Accessible source not located",
+    "recommendation": "Hold; exact accessible source required",
+    "source_url": "https://github.com/16usa/Pump-Fee-Routing",
+    "uncertainty": "Direct and exact-name checks did not verify repository",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "pump-fun/pump-public-docs",
+    "category": "Official protocol documentation and IDLs",
+    "license_evidence": "No root license verified",
+    "observed_maintenance": "README October 13 protocol update",
+    "recommendation": "Primary protocol reference; not product fork",
+    "source_url": "https://github.com/pump-fun/pump-public-docs",
+    "uncertainty": "Specific IDL redistribution license should be checked",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "pump-fun/pump-sdk [advertised repo inaccessible]",
+    "category": "Official @pump-fun/pump-sdk package; execution",
+    "license_evidence": "npm declares MIT; exact package payload not inspected",
+    "observed_maintenance": "Official docs list 4.1.0; cache conflicts",
+    "recommendation": "Prefer version-pinned package review; not verified public fork base",
+    "source_url": "https://www.npmjs.com/package/@pump-fun/pump-sdk",
+    "uncertainty": "GitHub 404; exact package source/license and tests unverified",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "pump-fun/pump-swap-sdk [advertised repo inaccessible]",
+    "category": "Official @pump-fun/pump-swap-sdk package; execution",
+    "license_evidence": "Exact package license not inspected",
+    "observed_maintenance": "Official docs list 2.1.0",
+    "recommendation": "Package candidate pending payload review",
+    "source_url": "https://www.npmjs.com/package/@pump-fun/pump-swap-sdk",
+    "uncertainty": "GitHub 404; npm access limited",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "rckprtr/pumpdotfun-sdk",
+    "category": "Legacy TypeScript SDK; actual execution",
+    "license_evidence": "MIT repository evidence",
+    "observed_maintenance": "Cached history 2025-04-11",
+    "recommendation": "Legacy reference; hold live current-protocol use",
+    "source_url": "https://github.com/rckprtr/pumpdotfun-sdk",
+    "uncertainty": "Old builders and current account/fee compatibility untested",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nhuxhr/pumpfun-rs",
+    "category": "Rust SDK; execution and optional streaming",
+    "license_evidence": "MIT OR Apache-2.0; both files",
+    "observed_maintenance": "Cached history 2025-10-01",
+    "recommendation": "Conditional Rust foundation after compatibility review",
+    "source_url": "https://github.com/nhuxhr/pumpfun-rs",
+    "uncertainty": "2026 protocol coverage and signing untested",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "sevenlabs-hq/carbon",
+    "category": "Rust indexing and Pumpfun decoder",
+    "license_evidence": "MIT LICENSE inspected",
+    "observed_maintenance": "Release 2.0.0 September 2026",
+    "recommendation": "Strong decoder dependency candidate",
+    "source_url": "https://github.com/sevenlabs-hq/carbon",
+    "uncertainty": "Not a bundle detector; no execution tests run here",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "rpcpool/yellowstone-grpc",
+    "category": "Live transaction streaming",
+    "license_evidence": "Server AGPL-3.0-only; specified clients/proto/examples Apache-2.0",
+    "observed_maintenance": "Release assets 2026-10-19",
+    "recommendation": "Strong ingestion dependency; respect component license",
+    "source_url": "https://github.com/rpcpool/yellowstone-grpc",
+    "uncertainty": "Hosted service and historical access not included",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "Shyft-to/solana-defi",
+    "category": "Parsing and wallet examples",
+    "license_evidence": "No verified root license",
+    "observed_maintenance": "Not established",
+    "recommendation": "Reference only pending license",
+    "source_url": "https://github.com/Shyft-to/solana-defi",
+    "uncertainty": "Hosted connectivity may be required",
+    "research_date": "2026-10-21"
+  },
+  {
+    "owner_repo_or_unresolved_name": "nirholas/atomic",
+    "category": "Historical Pumpkit protocol audit reference",
+    "license_evidence": "Not assessed",
+    "observed_maintenance": "May 2026 audit document",
+    "recommendation": "Documentation reference only",
+    "source_url": "https://github.com/nirholas/atomic",
+    "uncertainty": "Historical typecheck findings do not establish current failures",
+    "research_date": "2026-10-21"
+  }
+]
