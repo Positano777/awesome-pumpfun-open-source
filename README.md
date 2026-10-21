@@ -33,6 +33,10 @@ The catalog now covers **44 researched candidates**, including held and unresolv
 
 **Important holds:** Orca Whirlpools has current field-of-use restrictions. Squads' root and SDK manifest differ. Solana Verify's manifest and license-file evidence need reconciliation. Those are research leads, not blanket permissive reuse recommendations.
 
+## Memecoin creation handbook
+
+Start with the [A-to-Z Memecoin Launch Handbook](https://github.com/Positano777/memecoin-launch-handbook) for separate pump.fun and self-managed SPL paths, 26 chapters, 16 public templates, and offline plan checks. It is educational documentation and planning software, not a token launch service.
+
 ## Use this reference
 
 - **Builders:** choose a foundation, inspect its license, pin the revision, and test the integration.
