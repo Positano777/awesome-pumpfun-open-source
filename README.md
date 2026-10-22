@@ -33,6 +33,12 @@ The catalog now covers **44 researched candidates**, including held and unresolv
 
 **Important holds:** Orca Whirlpools has current field-of-use restrictions. Squads' root and SDK manifest differ. Solana Verify's manifest and license-file evidence need reconciliation. Those are research leads, not blanket permissive reuse recommendations.
 
+## Beyond Solana: researched crypto opportunities
+
+The [broader crypto shortlist](CRYPTO_OPPORTUNITIES.md) ranks five bounded contributions: route availability diagnostics, exchange CSV import audits, EVM data health reports, stablecoin receipt matching, and permission provenance fixtures. It links existing foundations and separates open requests from fixed bugs. Read the [full 2026-10-22 report](research/crypto-opportunities-2026-10-22.md) and [20-row evidence ledger](research/crypto-opportunity-evidence.csv). These are research hypotheses, not shipped integrations or validated market demand.
+
+The first receipt prototype is now in the [community toolbox](https://github.com/Positano777/pumpfun-community-tools/tree/main/receipt): offline browser viewer and read-only CLI with explicit unexplained amounts. It reuses attributed VTX Labs decoding code and does not calculate full trading PnL.
+
 ## Memecoin creation handbook
 
 Start with the [A-to-Z Memecoin Launch Handbook](https://github.com/Positano777/memecoin-launch-handbook) for separate pump.fun and self-managed SPL paths, 26 chapters, 16 public templates, and offline plan checks. It is educational documentation and planning software, not a token launch service.
