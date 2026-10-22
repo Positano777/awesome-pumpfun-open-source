@@ -10,6 +10,7 @@ A researched catalog of Solana and pump.fun tools, maintained by [Positano777](h
 | --- | --- | --- |
 | Launch evidence and creator outflows | [RugHawk](https://github.com/bobvasic/rughawk) | MIT source inspected; not independently runtime-validated |
 | Our launch evidence export | [Community toolbox](https://github.com/Positano777/pumpfun-community-tools) | Attributed RugHawk fork; developer preview |
+| Launch plan checks and lifecycle observations | [Memecoin LaunchOps](https://github.com/Positano777/memecoin-launchops) | Original MIT CLI with attributed receipt reuse; 75 offline tests, read-only/simulation preview |
 | Transaction decoding and indexing | [Carbon](https://github.com/sevenlabs-hq/carbon) | MIT framework with Pumpfun decoder |
 | Live Solana streams | [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) | Component-specific AGPL / Apache licenses |
 | Current protocol interfaces | [Official Pump docs](https://github.com/pump-fun/pump-public-docs) | Docs and SDK package leads; not all source repos accessible |
